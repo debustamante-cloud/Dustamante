@@ -1,7 +1,5 @@
 import { useState } from 'react';
-import { calcData } from '../data/calculatorsMetaData';
 import { AlertCircle, Play } from 'lucide-react';
-// workaround fix for variable calcData to calculators
 import { calculators } from '../data/calculatorsMetaData';
 
 export function Calculadoras() {
