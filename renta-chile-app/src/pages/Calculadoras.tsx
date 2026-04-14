@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { AlertCircle, Play } from 'lucide-react';
 import { calculators } from '../data/calculatorsMetaData';
-
 export function Calculadoras() {
   const [activeTab, setActiveTab] = useState(calculators[0].id);
   const activeCalc = calculators.find(c => c.id === activeTab);
